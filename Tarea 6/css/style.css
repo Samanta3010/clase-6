@@ -1,0 +1,33 @@
+.grid-container
+{
+    display: grid;
+background-color: blanchedalmond;
+grid-template-columns:auto auto auto; 
+grid-template-areas:"header header header"
+"menu main aside"
+"footer footer footer";
+}
+
+
+.grid-container div {
+    background-color:aqua;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+
+
+}
+.item1 {grid-area: header;
+}
+
+.item2 {grid-area: menu;
+}
+
+.item3 {grid-area:main;
+}
+
+.item4{grid-area: aside;
+}
+
+.item5 {grid-area: footer;
+}
